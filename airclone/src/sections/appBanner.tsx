@@ -1,5 +1,5 @@
 import Container from "../layout/container";
-import appBanner from "../assets/logo.svg"; // or a URL
+import appBanner from "../assets/logo.svg";
 
 export default function AppBanner() {
   return (
