@@ -5,6 +5,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 type SearchField = "where" | "checkIn" | "checkOut" | "who";
 
+
 export default function SearchBar() {
   const [activeField, setActiveField] = useState<SearchField | null>(null);
   const [formData, setFormData] = useState<Record<SearchField, string>>({
